@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/thesimpsons-random-quote-reactjs/precache-manifest.5ee5c61fc3bfa4271a79755df0a9c31e.js"
+  "/thesimpsons-random-quote-reactjs/precache-manifest.69d6faf1183c6bf05c960753d35d5681.js"
 );
 
 workbox.clientsClaim();
