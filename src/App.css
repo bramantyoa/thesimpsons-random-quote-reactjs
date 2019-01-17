@@ -18,7 +18,6 @@ body {
 .quote-container {
   flex: 1;
   flex-direction: column;
-  
 }
 
 .quote-main {
@@ -76,4 +75,35 @@ h2 {
   font-family: "Simpsons";
   color: #F14E28;
   font-size: 2em;
+}
+
+.misc-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 20px;
+}
+
+.misc-buttons {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.misc-buttons p:not(:nth-child(1)) {
+  margin-left: 10px;
+}
+
+.fetch-new {
+  font-family: "Simpsons";
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #F14E28;
+}
+
+.fetch-new:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.fetch-new:active {
+  color: #F14E28;
 }
